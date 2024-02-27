@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Colores</string>
+    <string name="Red">Rojo</string>
+    <string name="Green">Verde</string>
+    <string name="Blue">Azul</string>
+    <string name="Targert_color">Color objetivo</string>
+    <string name="Proposed_color">Color propuesto</string>
+    <string name="Score">Puntaje</string>
+    <string name="Your_score_is">Su puntaje es %1$s</string>
+    <string name="X_is_Y">El %1$s es %2$s</string>
+    <string name="Low">Bajo</string>
+    <string name="Very_low">Muy Bajo</string>
+    <string name="Hight">Alto</string>
+    <string name="Very_hight">Muy alto</string>
+    <string name="New">Nuevo</string>
+    <string name="Tips">Concejos</string>
+    <string name="Close">Cerrar</string>
+</resources>
