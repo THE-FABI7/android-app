@@ -7,11 +7,17 @@
     tools:context=".MainActivity">
 
     <LinearLayout
-        android:layout_width="399dp"
-        android:layout_height="774dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="12dp"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="7dp"
-        tools:layout_editor_absoluteY="-46dp">
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -25,7 +31,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginEnd="5dp"
                 android:layout_weight="1"
-                android:background="#673AB7"
+                android:background="#6699cc"
                 android:gravity="center"
                 android:text="@string/Proposed_color" />
 
@@ -35,7 +41,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginStart="5dp"
                 android:layout_weight="1"
-                android:background="#352222"
+                android:background="#777"
                 android:gravity="center"
                 android:text="@string/Targert_color" />
         </LinearLayout>
@@ -48,7 +54,7 @@
 
             <TextView
                 android:id="@+id/lblRedTittle"
-                android:layout_width="40dp"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
                 android:gravity="center|start"
@@ -56,7 +62,7 @@
 
             <SeekBar
                 android:id="@+id/sbrRed"
-                android:layout_width="match_parent"
+                android:layout_width="305dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:max="255"
@@ -81,12 +87,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/lblGreenValue"
-                android:layout_width="30dp"
+                android:id="@+id/lblGreenTittle"
+                android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:gravity="center|end"
-                android:text="153" />
+                android:gravity="center|start"
+                android:text="@string/Green" />
 
             <SeekBar
                 android:id="@+id/sbrGreen"
@@ -99,12 +105,13 @@
                 android:thumbTint="#4CAF50" />
 
             <TextView
-                android:id="@+id/lblGreenTittle"
-                android:layout_width="40dp"
+                android:id="@+id/lblGreenValue"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:gravity="center|start"
-                android:text="@string/Green" />
+                android:gravity="center|end"
+                android:text="153" />
+
         </LinearLayout>
 
         <LinearLayout
@@ -114,12 +121,12 @@
             android:orientation="horizontal">
 
             <TextView
-                android:id="@+id/lblBlueValue"
-                android:layout_width="30dp"
+                android:id="@+id/lblBlueTittle"
+                android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:gravity="center|end"
-                android:text="204" />
+                android:gravity="center|start"
+                android:text="@string/Blue" />
 
             <SeekBar
                 android:id="@+id/sbrBlue"
@@ -132,12 +139,13 @@
                 android:thumbTint="#3F51B5" />
 
             <TextView
-                android:id="@+id/lblBlueTittle"
-                android:layout_width="40dp"
+                android:id="@+id/lblBlueValue"
+                android:layout_width="30dp"
                 android:layout_height="match_parent"
                 android:layout_weight="0"
-                android:gravity="center|start"
-                android:text="@string/Blue" />
+                android:gravity="center|end"
+                android:text="204" />
+
         </LinearLayout>
 
         <LinearLayout
