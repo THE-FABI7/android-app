@@ -20,18 +20,12 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView lblRedValue = null;
 
-    private TextView lblRedTittle = null;
-
     private SeekBar sbrGreen = null;
 
     private TextView lblGreenValue = null;
 
-    private TextView lblGreenTittle = null;
-
     private SeekBar sbrBlue = null;
     private TextView lblBlueValue = null;
-
-    private TextView lblBlueTittle = null;
     private Button btnNewColor = null;
 
     private Button btnGetScore = null;
