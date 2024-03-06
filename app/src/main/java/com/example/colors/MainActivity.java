@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity {
             seekBar.setOnSeekBarChangeListener(new SeekBar.OnSeekBarChangeListener() {
                 @Override
                 public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-
+                     updateValues();
                 }
 
                 @Override
@@ -76,6 +76,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void restarGame() {
+
         colorsGame.restarGame();
     }
 
@@ -172,6 +173,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         initViews();
 
         colorsGame = new ColorsGame();
