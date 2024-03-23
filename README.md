@@ -4,7 +4,7 @@ Colors es un juego sencillo donde intentas igualar un color objetivo ajustando l
 
 ## Requisitos del sistema
 - Android API 21 (versión mínima admitida)
-- Conexión a internet (para funciones opcionales)
+
 
 ## Instalación
 1. Clona el repositorio o descarga el archivo zip.
